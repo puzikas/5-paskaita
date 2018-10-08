@@ -15,8 +15,15 @@ function generate() {
 		var r = Math.round(Math.random() * 255);
 		var g = Math.round(Math.random() * 255);
 		var b = Math.round(Math.random() * 255);
-		langeliai.innerHTML += '<div class="langeliai" style="background-color: rgb('+r+','+g+','+b+')">' + i + '</div>';
+		langeliai.innerHTML += '<div class="langeliai logo" style="background-color: rgb('+r+','+g+','+b+')">' + i + '</div>';
 
 	}	
 }
 
+function show_items () {
+	console.log('Showing');
+}
+
+function hide_items () {
+	console.log('Hiding');
+}
