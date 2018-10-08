@@ -1,0 +1,15 @@
+body {
+	background-color: lightgray;
+}
+.logo {
+	border: 2px solid white;
+	color: white;
+	text-align: center;
+	margin: 10px;
+	padding-bottom: 40px;
+	padding-top: 40px;
+	padding-left: 25px;
+	padding-right: 25px;
+	display: inline;
+	font-size: 25px;
+}
